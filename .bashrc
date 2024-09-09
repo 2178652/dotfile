@@ -12,6 +12,7 @@ alias grepc='grep --color=auto'
 alias ll='ls -l -a'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+export PATH="$HOME/bin:$PATH"
 if [ "$USER" = "cgar" ]; then
 	PS1='\h:\W\$'
 else
